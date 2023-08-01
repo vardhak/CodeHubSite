@@ -1,0 +1,84 @@
+.aboutus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-left: 6px solid #40916c;
+    width: 90%;
+    margin: 0px auto;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    border-radius: 6%;
+}
+
+.aboutus>* {
+    height: 100%;
+}
+
+.about-title {
+    flex: 1 1 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 400px;
+}
+
+.about-title p {
+    font-size: 1.1rem;
+}
+
+.about-title h1 {
+    color: #40916c;
+    font-size: 4rem;
+}
+
+.about-title h3 {
+    margin: 1.6rem 0rem;
+    font-size: 2rem;
+}
+
+.about-cards {
+    flex: 2 1 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about-cards-card {
+    flex: 1 1 300px;
+    min-height: 220px;
+    margin: 20px 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 8px 12px;
+}
+
+.about-cards-card span {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    font-size: 1.8rem;
+    background-color: #40916c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    color: white;
+    position: relative;
+    top: -30px;
+}
+
+.about-cards-card h2 {
+    margin-bottom: 15px;
+}
+
+.about-cards-card p {
+    font-size: 1rem;
+    margin: 15px 0px;
+}

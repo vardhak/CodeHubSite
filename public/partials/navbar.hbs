@@ -1,0 +1,39 @@
+<link rel="stylesheet" href="assets/css/navbar.css">
+{{!-- html --}}
+<header>
+    <div class="logo">
+        <a href="/">
+            <img src="assets/img/codehub-logo-2.svg" alt="logo" width="60px" height="60px">
+        </a>
+    </div>
+    <div class="links">
+        <a class="home" href="/">Home</a>
+        <a class="about" href="#about">About</a>
+        <a class="service" href="#services">Service</a>
+        <a class="contact" href="#contact">Contact</a>
+    </div>
+    <div class="login">
+        {{!-- <img src="" alt="login" width="60px" height="60px"> --}}
+        <button>Login</button>
+    </div>
+    <div class="menu">
+        <button onclick="showMenu('.mob-navbar')">Menu</button>
+    </div>
+</header>
+
+<div class="mob-navbar">
+    <div class="mob-close">
+        <img src="assets/img/close.png" alt="close" width="20px" height="20px" onclick="closeMenu('.mob-navbar')">
+    </div>
+    <div class="mob-links">
+        <a href="/">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Service</a>
+        <a href="#contact">Contact</a>
+    </div>
+    <div class="mob-login">
+        <button>Login</button>
+    </div>
+</div>
+
+<script src="js/navbar.js"></script>

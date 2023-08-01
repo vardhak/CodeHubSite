@@ -1,0 +1,171 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+
+header {
+    position: fixed;
+    top: 0;
+    z-index: 5;
+    background-color: white;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    border-bottom: 3px solid #40916c;
+}
+
+header a {
+    margin-inline: 5px;
+    text-decoration: none;
+    letter-spacing: 1.5px;
+    color: #40916c;
+    font-size: 1.1rem;
+    transition: ease-in-out 200ms;
+}
+
+header a:hover {
+    color: black;
+    transition: ease-in-out 200ms;
+}
+
+.logo img {
+    /* cursor: pointer; */
+}
+
+.login button {
+    background-color: #40916c;
+    color: white;
+    font-size: 1.1rem;
+    letter-spacing: 1.5px;
+    border-radius: 5px;
+    border: 0px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: ease-in-out 200ms;
+}
+
+.login button:hover {
+    background-color: black;
+    transition: ease-in-out 200ms;
+}
+
+.menu button {
+    background-color: black;
+    color: white;
+    font-size: 1.1rem;
+    letter-spacing: 1.5px;
+    border-radius: 5px;
+    border: 0px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: ease-in-out 200ms;
+    text-transform: uppercase;
+}
+
+.menu button:hover {
+    background-color: #40916c;
+    transition: ease-in-out 200ms;
+}
+
+.menu {
+    display: none;
+}
+
+/* mobile navbar css */
+
+.mob-navbar {
+    z-index: 5;
+    background-color: white;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    height: max-content;
+    top: 50%;
+    left: 50%;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    padding-bottom: 2.5rem;
+    padding-top: .9rem;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.mob-close {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.mob-close img {
+    cursor: pointer;
+}
+
+.mob-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-block: 2rem;
+}
+
+.mob-links a {
+    text-decoration: none;
+    letter-spacing: 1.5px;
+    font-size: 1.1rem;
+    margin-block: 5px;
+    color: black;
+    transition: ease-in-out 200ms;
+}
+
+.mob-links a:hover {
+    color: #40916c;
+    transition: ease-in-out 200ms;
+}
+
+.mob-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mob-login button {
+    padding: 5px 10px;
+    font-size: 1.1rem;
+    letter-spacing: 1.5px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    transition: ease-in-out 200ms;
+    cursor: pointer;
+}
+
+.mob-login button:hover {
+    background-color: #40916c;
+    transition: ease-in-out 200ms;
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .login,
+    .links {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    header {
+        justify-content: space-between;
+        padding-inline: 15px;
+    }
+}

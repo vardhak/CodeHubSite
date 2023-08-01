@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {{>links}}
+    <link rel="stylesheet" href="assets/css/home.css">
+    <title>Home</title>
+</head>
+<style>
+    .home {
+        color: black;
+    }
+</style>
+
+<body>
+    {{!--navbar section--}}
+    {{>navbar}}
+
+    {{!-- home intro --}}
+    <div class="homeIntro">
+        <div class="homeIntro-img">
+            <img src="assets/img/work.svg" alt="" width="100%" height="auto">
+        </div>
+        <div class="homeIntro-info">
+            <h1>welcome to {{title}}</h1>
+            <p>we offers you the best coding supports for your projects Lorem ipsum dolor sit, amet consectetur
+                adipisicing elit. Recusandae, tempora!</p>
+            <button>Explore</button>
+        </div>
+    </div>
+
+    {{!-- about container --}}
+    {{>about_ctr}}
+
+    {{!-- services Container --}}
+    {{>service_ctr}}
+
+    {{!-- contact container --}}
+    {{>contact_ctr}}
+
+    {{!-- footer section --}}
+    {{>footer}}
+</body>
+
+</html>

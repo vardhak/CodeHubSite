@@ -1,0 +1,18 @@
+<link rel="stylesheet" href="assets/css/service_ctr.css">
+
+<div class="services" id="services">
+    <div class="services-title">
+        <h1>our services</h1>
+        <p>different languages that are provided by us are mentioned !!</p>
+    </div>
+    <div class="services-cards">
+        {{#services_cards}}
+        <div class="services-cards-card">
+            <img src="{{service_img}}" width="70px" height="70px">
+            <h2>{{service_h2}}</h2>
+            <p>{{service_p}}</p>
+            <button>enroll</button>
+        </div>
+        {{/services_cards}}
+    </div>
+</div>
