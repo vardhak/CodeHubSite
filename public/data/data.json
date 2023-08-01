@@ -13,10 +13,5 @@
         "service_img": "assets/img/css-svg.svg",
         "service_h2": "css",
         "service_p": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat cupiditate voluptatum eaque aspernatur. Illo, aspernatur inventore. Molestias?"
-    },
-    {
-        "service_img": "assets/img/css-svg.svg",
-        "service_h2": "css",
-        "service_p": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat cupiditate voluptatum eaque aspernatur. Illo, aspernatur inventore. Molestias?"
     }
 ]
