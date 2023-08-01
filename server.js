@@ -23,7 +23,7 @@ const jsonData = JSON.parse(fs.readFileSync("public/data/data.json", "utf-8"));
 
 app.get("/", (req, res) => {
     res.render("home", {
-        title: "Vijay community",
+        title: "CodeHub community",
         services_cards: jsonData,
     });
 })
